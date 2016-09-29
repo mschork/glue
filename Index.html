@@ -17,7 +17,10 @@
     right: 0;
     bottom: 0;
     left: 0;
+    z-index: -1;
 }
+.glue-logo {width: 200px; margin: 20% auto 20%;}
+.glue-logo--image {width: 200px; height: auto;}
 </style>
     </head>
     <body>
@@ -27,6 +30,9 @@
 
         <!-- Add your site or application content here -->
         <canvas id="canvas-basic"></canvas>
+        <div class="glue-logo">
+          <img src="img/glue-logo.png" class="glue-logo--image" alt="" />
+        </div>
 
         <script src="js/granim.min.js"></script>
         <script>
